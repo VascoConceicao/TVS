@@ -1,0 +1,19 @@
+# Build artifacts
+*.o
+*.out
+*.dSYM/
+
+# AFL++ generated binaries
+harness_fuzz
+harness_fuzz_classic
+harness_cmin
+ex2/Ex2Harness/harness
+
+# AFL++ generated runtime data
+ex2/Ex2Harness/outputs/
+ex2/outputs/
+ex2/minimized/
+ex2/.afl-showmap-temp-*
+
+# Local/editor noise
+.DS_Store
